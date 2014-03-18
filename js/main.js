@@ -30,7 +30,11 @@ people = [
   },
   {
     full_name: 'André Amaral de Sousa',
-    first_name: 'André'
+    first_name: 'André',
+    course: 'Curso Cooperativo',
+    birthday: '09/02/1994',
+    about: 'Ask me.',
+    picture: '44a119e8dda8d6bd366b893bd48b3fa5'
   },
   {
     full_name: 'Bruno Henrique da Silva',
