@@ -51,6 +51,10 @@ people = [
   {
     full_name: 'Gabriel Souza Victorino Lopes',
     first_name: 'Gabriel'
+    course: 'Engenharia Elétrica - Enfâse Computação'
+    birthday: '19/12/1992'
+    information: '............... :) ................'
+
   },
   {
     full_name: 'Guilherme Job Rocha Silveira',
@@ -137,6 +141,9 @@ people = [
     first_name: 'Victor'
   }
 ];
+
+
+/*Adicionar qualquer merda*/
 
 /*
  * This function will be executed once the DOM has finished loading.
