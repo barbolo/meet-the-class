@@ -94,7 +94,11 @@ people = [
   },
   {
     full_name: 'Matheus Eis Pagani',
-    first_name: 'Matheus Pagani'
+    first_name: 'Matheus Pagani',
+    course: 'Curso Cooperativo',
+    birthday: '27/09/1988',
+    about: 'Ploomes CRM',
+    
   },
   {
     full_name: 'Matheus Santos Oliveira',
