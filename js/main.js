@@ -74,7 +74,12 @@ people = [
   },
   {
     full_name: 'João Henrique Kersul Faria',
-    first_name: 'João Henrique'
+    first_name: 'João Henrique',
+    course: 'Curso Semestral',
+    birthday: '07/10/1992',
+    about: 'Ficar das 18:00 até as 21:30 em um curso de programação já define muito sobre você.',
+    picture: 'e6819752a3cfb898f155e2228504ec98'
+    
   },
   {
     full_name: 'Lucas Batista Gabriel',
