@@ -39,6 +39,9 @@ people = [
   {
     full_name: 'Cesar Rodrigues dos Passos',
     first_name: 'Cesar'
+    course: 'Curso Cooperativo',
+    birthday: '02/08/1993',
+    about: 'I love wathing TV Series and movies.'
   },
   {
     full_name: 'Felipe Cardoso Resende',
