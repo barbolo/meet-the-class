@@ -82,7 +82,11 @@ people = [
   },
   {
     full_name: 'Luiz Fernando Pessoa Lustosa Cabral',
-    first_name: 'Luiz'
+    first_name: 'Luiz',
+	course: 'curso semestral',
+	birthday: '19/06/1993',
+    about: 'I love listening to music and doing nothing at home.',
+    picture: 'cb8405ed12689a3e139d9368b06a4a33'
   },
   {
     full_name: 'Marcos Teruaki Hosoya',
