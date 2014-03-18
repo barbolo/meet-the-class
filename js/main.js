@@ -126,7 +126,11 @@ people = [
   },
   {
     full_name: 'Ricardo Boccoli Gallego',
-    first_name: 'Ricardo'
+    first_name: 'Ricardo',
+	course: 'Curso Semestral',
+    birthday: '06/04/1993',
+    about: 'I love sleeping.',
+    picture: '18a4c7cf25f42320d1838376e702225e'
   },
   {
     full_name: 'Saulo de Tarso Ribeiro Costa',
