@@ -110,7 +110,10 @@ people = [
   },
   {
     full_name: 'Pedro Napolitano Sant\'Ana',
-    first_name: 'Pedro'
+    first_name: 'Pedro',
+    course: 'Curso Cooperativo',
+    birthday: '16/08/1993',
+    about: 'Too lazy to add a picture'
   },
   {
     full_name: 'Rafael Coregliano Ring',
