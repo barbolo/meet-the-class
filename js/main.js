@@ -134,7 +134,10 @@ people = [
   },
   {
     full_name: 'Victor Gabriel Maraccini',
-    first_name: 'Victor'
+    first_name: 'Victor',
+	curso: 'PSI',
+	birthday: '22/10/1992',
+	about: ''
   }
 ];
 
