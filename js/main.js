@@ -101,7 +101,7 @@ people = [
     first_name: 'Matheus Oliveira',
     course: 'Curso Cooperativo',
     birthday: '18/03/1993',
-    about: 'Aniversariante do dia',
+    about: 'MulEkE ZicA ZoNa NoOrTte',
     picture: 'cb8405ed12689a3e139d9368b06a4a33'
   },
   {
