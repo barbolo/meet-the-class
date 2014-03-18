@@ -66,7 +66,12 @@ people = [
   },
   {
     full_name: 'Ivan Diego de sousa',
-    first_name: 'Ivan'
+    first_name: 'Ivan',
+	course: 'Curso Cooperativo',
+	birthday: '26/08/1988',
+	about: 'I love you.',
+	picture: 'cb8405ed12689a3e139d9368b06a4a33'
+ 
   },
   {
     full_name: 'João Batista Marinho da Silva Filho',
