@@ -114,7 +114,10 @@ people = [
   },
   {
     full_name: 'Rafael Coregliano Ring',
-    first_name: 'Rafael Ring'
+    first_name: 'Rafael Ring',
+    course: 'Curso Cooperativo',
+    birthday: '09/06/1993',
+    about: '...'
   },
   {
     full_name: 'Rafael Freitas da Silva',
