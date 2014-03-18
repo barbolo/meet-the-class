@@ -63,6 +63,10 @@ people = [
   {
     full_name: 'Isabel Rosalino Gomes',
     first_name: 'Isabel'
+	curso: 'Curso Cooperativo'
+	birthday: '02/10/1993'
+	about: 'I am Bug'
+	picture: 'ab121bbbf0a2e9438f470ad8cb943f8f'
   },
   {
     full_name: 'Ivan Diego de sousa',
