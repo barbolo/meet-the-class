@@ -98,7 +98,10 @@ people = [
   },
   {
     full_name: 'Matheus Santos Oliveira',
-    first_name: 'Matheus Oliveira'
+    first_name: 'Matheus Oliveira',
+    course: 'Curso Cooperativo',
+    birthday: '18/03/1993',
+    about: 'Enjoys playing piano, correr e sair com os amigos'
   },
   {
     full_name: 'Mayer Rangel Levy',
