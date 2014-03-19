@@ -118,7 +118,11 @@ people = [
   },
   {
     full_name: 'Rafael Freitas da Silva',
-    first_name: 'Rafael Freitas'
+    first_name: 'Rafael Freitas',
+    course: 'Curso Cooperativo',
+    birthday: '14/03/1990',
+    about: 'Gosta de jogos, cinema, livros e séries. Comida predileta é batata frita.',
+    picture: '5e1177788ad483745d2763224b74103e'
   },
   {
     full_name: 'Rafael Trostli Costella',
