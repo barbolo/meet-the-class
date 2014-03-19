@@ -147,7 +147,7 @@ people = [
  */
 
 $(function() {
-  $('.empty-places-count')[0].innerHTML = people.length;
+  $('.empty-places-count')[0].innerHTML = $('.place').length - $('.person.seated').length;
 });
 
 /*
@@ -353,7 +353,7 @@ function handleDrop(e) {
   }
 
   // Updates the empty places count.
-  $('.empty-places-count')[0].innerHTML = $('.person:not(.seated)').length;
+  $('.empty-places-count')[0].innerHTML = $('.place').length - $('.person.seated').length;
 
   return false;
 }
