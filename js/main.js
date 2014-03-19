@@ -144,8 +144,8 @@ people = [
     full_name: 'Michelet Del Carpio',
     first_name: 'Michelet',
     course: 'LabSoft Technician',
-    birthday: '??/??/????',
-    about: '????????',
+    birthday: '99/99/9999',
+    about: '............. : ( .............',
     picture: '??????'
   }
 ];
