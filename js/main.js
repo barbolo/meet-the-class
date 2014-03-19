@@ -102,7 +102,7 @@ people = [
     course: 'Curso Cooperativo',
     birthday: '18/03/1993',
     about: 'MulEkE ZicA ZoNa NoOrTte',
-    picture: 'cb8405ed12689a3e139d9368b06a4a33'
+    picture: '857a23432499311e166319ab54265cfc'
   },
   {
     full_name: 'Mayer Rangel Levy',
