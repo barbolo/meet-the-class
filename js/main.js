@@ -45,6 +45,14 @@ people = [
     first_name: 'Felipe'
   },
   {
+    full_name: 'Filipe Arena',
+    first_name: 'Filipe',
+    course: 'Curso Cooperativo',
+    birthday: '18/01/1990',
+    about: 'Não tenho carro, não tenho teto e se ficar comigo é porque gosta',
+    picture: '3e6b64ee9f9a5a50ca632615c39401cc'
+  },
+  {
     full_name: 'Frederico Augusto Vieira Campos de Castro',
     first_name: 'Frederico'
   },
@@ -135,6 +143,10 @@ people = [
   {
     full_name: 'Victor Gabriel Maraccini',
     first_name: 'Victor'
+  },
+  {
+    full_name: 'Débora Setton',
+    first_name: 'Prof.'
   }
 ];
 
