@@ -143,12 +143,8 @@ people = [
   {
     full_name: 'Victor Gabriel Maraccini',
     first_name: 'Victor'
-  },
-  {
-    full_name: 'Débora Setton',
-    first_name: 'Prof.'
   }
-];
+ ];
 
 /*
  * This function will be executed once the DOM has finished loading.
