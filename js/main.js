@@ -50,9 +50,9 @@ people = [
   },
   {
     full_name: 'Gabriel Souza Victorino Lopes',
-    first_name: 'Gabriel'
-    course: 'Engenharia Elétrica - Enfâse Computação'
-    birthday: '19/12/1992'
+    first_name: 'Gabriel',
+    course: 'Engenharia Elétrica - Enfâse Computação',
+    birthday: '19/12/1992',
     information: '............... :) ................'
 
   },
