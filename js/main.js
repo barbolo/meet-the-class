@@ -127,14 +127,14 @@ people = [
   {
     full_name: 'Ricardo Boccoli Gallego',
     first_name: 'Ricardo',
-	course: 'Curso Semestral',
+    course: 'Curso Semestral',
     birthday: '06/04/1993',
     about: 'I love sleeping.',
     picture: '18a4c7cf25f42320d1838376e702225e'
   },
   {
     full_name: 'Saulo de Tarso Ribeiro Costa',
-    first_name: 'Saulo'
+    first_name: 'Saulo',
   },
   {
     full_name: 'Victor Gabriel Maraccini',
@@ -156,7 +156,17 @@ $(function() {
  */
 
 [].forEach.call(people, function(person) {
-  person_element = $('<div class="person" draggable="true"><span>' + person.first_name + '</span></div>');
+  var back_color = "purple";
+  if (person.course != null) {
+    if (person.course.toLowerCase() == "curso semestral")
+	  back_color = "blue";
+	else if (person.course.toLowerCase() == "curso cooperativo")
+	  back_color = "red";
+  }
+  if (person.first_name.toLowerCase() == "michelet")
+	  back_color = "black";
+ 
+  person_element = $('<div class="person" style="background-color:' + back_color + ';" draggable="true"><span>' + person.first_name + '</span></div>');
   person_element.find('span').data('who', person);
   $('#people').append(person_element);
 });
