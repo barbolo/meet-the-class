@@ -139,6 +139,14 @@ people = [
   {
     full_name: 'Victor Gabriel Maraccini',
     first_name: 'Victor'
+  },
+  {
+    full_name: 'Michelet Del Carpio',
+    first_name: 'Michelet',
+    course: 'LabSoft Technician',
+    birthday: '??/??/????',
+    about: '????????',
+    picture: '??????'
   }
 ];
 
