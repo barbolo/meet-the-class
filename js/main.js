@@ -221,7 +221,20 @@ var names = document.querySelectorAll('.person span');
 
 $('.about .hide').on('click', function() {
   $('.about').css('display', 'none');
-})
+});
+
+/*
+ * Close modal when user clicks on the semi-transparent black background.
+ */
+$('.about .externalarea').on('click', function() {
+  $('.about').css('display', 'none');	
+});
+
+	
+
+
+
+
 
 
 /* ==========================================================================
