@@ -318,9 +318,9 @@ function handleDrop(e) {
         person = seated_people[i];
         if (person.innerHTML == dragSrcEl.innerHTML) {
           // Remove the person from the current seat.
-          temp = this.innerHTML;
-		  this.innerHTML = dragSrcEl.innerHTML;
-		  dragSrcEl.innerHTML = temp;
+          dragSrcEl.innerHTML = "";
+          // Re-enable the person in the unseated area.
+          person.classList.remove('seated');
           // Stop the loop.
           found_person = true;
         }
@@ -346,10 +346,11 @@ function handleDrop(e) {
     /*
      * Case: UNSEATED-PERSON -> EMPTY-PLACE
      */
-    else {
-      this.innerHTML = dragSrcEl.innerHTML;
-      dragSrcEl.classList.add('seated');
-    }
+    
+	else if(!this.classList.contains('bla')){
+	this.innerHTML = dragSrcEl.innerHTML;
+    dragSrcEl.classList.add('seated');
+	}
   }
    
 
