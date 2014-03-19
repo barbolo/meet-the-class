@@ -90,7 +90,11 @@ people = [
   },
   {
     full_name: 'Martin Andrade Jastrzebski',
-    first_name: 'Martin'
+    first_name: 'Martin',
+	course: 'Curso Cooperativo',
+	birthday: '14/07/1992',
+	about: 'Love cooking, gaming and Music :)',
+	picture: '522dccfa85d6ec7ffa07d16e03626efe',
   },
   {
     full_name: 'Matheus Eis Pagani',
@@ -314,9 +318,9 @@ function handleDrop(e) {
         person = seated_people[i];
         if (person.innerHTML == dragSrcEl.innerHTML) {
           // Remove the person from the current seat.
-          dragSrcEl.innerHTML = "";
-          // Re-enable the person in the unseated area.
-          person.classList.remove('seated');
+          temp = this.innerHTML;
+		  this.innerHTML = dragSrcEl.innerHTML;
+		  dragSrcEl.innerHTML = temp;
           // Stop the loop.
           found_person = true;
         }
@@ -347,6 +351,7 @@ function handleDrop(e) {
       dragSrcEl.classList.add('seated');
     }
   }
+   
 
   // Updates the empty places count.
   $('.empty-places-count')[0].innerHTML = $('.person:not(.seated)').length;
