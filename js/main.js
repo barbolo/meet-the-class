@@ -42,7 +42,11 @@ people = [
   },
   {
     full_name: 'Felipe Cardoso Resende',
-    first_name: 'Felipe'
+    first_name: 'Felipe',
+    course: 'Engenharia de Computação Quadrimestral',
+    birthday: '02/10/1992',
+    about: 'Uma breve descrição!',
+    picture: '357c93eb08b684eb412e532265365641'
   },
   {
     full_name: 'Frederico Augusto Vieira Campos de Castro',
