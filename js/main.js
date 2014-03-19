@@ -134,7 +134,7 @@ people = [
   },
   {
     full_name: 'Saulo de Tarso Ribeiro Costa',
-    first_name: 'Saulo',
+    first_name: 'Saulo'
   },
   {
     full_name: 'Victor Gabriel Maraccini',
