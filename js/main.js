@@ -141,7 +141,7 @@ people = [
     first_name: 'Débora',
     course: 'Curso Cooperativo',
     birthday: '11/04/1989',
-    about: 'I <3 programming',
+    about: 'I <3 programming.',
     picture: 'bb7c3c75368c429820f5cc85d96eac67'
   }
 ];
