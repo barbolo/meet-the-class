@@ -160,7 +160,7 @@ $(function() {
   if (person.course != null) {
     if (person.course.toLowerCase() == "curso semestral")
 	  back_color = "blue";
-	else if (person.course.toLowerCase() == "curso cooperativo")
+    else if (person.course.toLowerCase() == "curso cooperativo")
 	  back_color = "red";
   }
   if (person.first_name.toLowerCase() == "michelet")
