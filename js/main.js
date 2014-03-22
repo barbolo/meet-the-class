@@ -122,9 +122,9 @@ people = [
   },
   {
     full_name: 'Rafael Trostli Costella',
-    first_name: 'Rafael'
-	course: 'Curso Cooperativo',
-    birthday: '08/10/1984',
+    first_name: 'Rafael',
+    course: 'Curso Cooperativo',
+    birthday: '08/10/1994',
     about: 'I like pizza!',
     picture: '99f559f647114bc831ed07410484d9ba'
   },
