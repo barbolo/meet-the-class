@@ -46,15 +46,11 @@ people = [
   },
   {
     full_name: 'Frederico Augusto Vieira Campos de Castro',
-<<<<<<< HEAD
-    first_name: 'Frederico'
-=======
     first_name: 'Frederico',
     course: 'Curso Cooperativo',
     birthday: '01/07/1982',
     about: 'I love listening to nothing and making music at home.',
     picture: '19f61e98b8e4f9e544025836568c442f'
->>>>>>> 83d9299f64eb3540b8c390cfc52c7e523b7ac97b
   },
   {
     full_name: 'Gabriel Souza Victorino Lopes',
