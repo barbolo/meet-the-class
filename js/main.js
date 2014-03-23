@@ -101,8 +101,11 @@ people = [
     first_name: 'Martin'
   },
   {
-    full_name: 'Matheus Eis Pagani',
-    first_name: 'Matheus Pagani'
+    full_name: 'Matheus Eid Pagani',
+    first_name: 'Matheus Pagani',
+    course: 'Curso Cooperativo',
+    birthday: '27/09/1988',
+    about: 'Ploomes CRM',
   },
   {
     full_name: 'Matheus Santos Oliveira',

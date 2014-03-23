@@ -225,3 +225,11 @@ header {
   font-style: italic;
   margin-top: 10px;
 }
+
+.link-white {
+  color: white;
+}
+
+.link-white:hover {
+  color: lightgray;;
+}
