@@ -227,9 +227,9 @@ header {
 }
 
 .link-white {
-	color: white;
+  color: white;
 }
 
 .link-white:hover {
-	color: lightgray;;
+  color: lightgray;;
 }
