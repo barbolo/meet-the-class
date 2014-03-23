@@ -98,7 +98,6 @@ people = [
     course: 'Curso Cooperativo',
     birthday: '27/09/1988',
     about: 'Ploomes CRM',
-    
   },
   {
     full_name: 'Matheus Santos Oliveira',
