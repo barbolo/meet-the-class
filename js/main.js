@@ -18,7 +18,6 @@
  *   picture: 'cb8405ed12689a3e139d9368b06a4a33'
  * }
  */
-
 people = [
   {
     full_name: 'Adriano Dennanni',
@@ -162,7 +161,7 @@ people = [
  */
 
 $(function() {
-  $('.empty-places-count')[0].innerHTML = people.length;
+  $('.empty-places-count')[0].innerHTML = $('.place:not(:has(span))').length;
 });
 
 /*
@@ -368,7 +367,7 @@ function handleDrop(e) {
   }
 
   // Updates the empty places count.
-  $('.empty-places-count')[0].innerHTML = $('.person:not(.seated)').length;
+  $('.empty-places-count')[0].innerHTML = $('.place:not(:has(span))').length;
 
   return false;
 }
