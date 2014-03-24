@@ -125,7 +125,10 @@ people = [
   },
   {
     full_name: 'Rafael Coregliano Ring',
-    first_name: 'Rafael Ring'
+    first_name: 'Rafael Ring',
+    course: 'Curso Cooperativo',
+    birthday: '09/06/1993',
+    about: '...'
   },
   {
     full_name: 'Rafael Freitas da Silva',
@@ -154,7 +157,15 @@ people = [
   {
     full_name: 'Victor Gabriel Maraccini',
     first_name: 'Victor'
-  }
+  },
+  {
+   full_name: 'Michelet Del Carpio Chavez',
+   first_name: 'Michelet',
+   course: 'LabSoft Technician',
+   birthday: '23/09/1981',
+   about: '...',
+   picture: 'd41d8cd98f00b204e9800998ecf8427e'
+ }
 ];
 
 /*
