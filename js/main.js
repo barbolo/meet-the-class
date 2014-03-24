@@ -153,7 +153,11 @@ people = [
   },
   {
     full_name: 'Victor Gabriel Maraccini',
-    first_name: 'Victor'
+    first_name: 'Victor',
+    course: 'PSI',
+    birthday: '22/10/1992',
+    about: ' ... ',
+    picture: 'cb8405ed12689a3e139d9368b06a4a33'
   }
 ];
 
@@ -162,7 +166,7 @@ people = [
  */
 
 $(function() {
-  $('.empty-places-count')[0].innerHTML = people.length;
+  $('.empty-places-count')[0].innerHTML = $('.place').length - $('.person.seated').length;
 });
 
 /*
@@ -368,7 +372,7 @@ function handleDrop(e) {
   }
 
   // Updates the empty places count.
-  $('.empty-places-count')[0].innerHTML = $('.person:not(.seated)').length;
+  $('.empty-places-count')[0].innerHTML = $('.place').length - $('.person.seated').length;
 
   return false;
 }
