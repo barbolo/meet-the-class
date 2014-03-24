@@ -51,10 +51,9 @@ people = [
   {
     full_name: 'Gabriel Souza Victorino Lopes',
     first_name: 'Gabriel',
-    course: 'Engenharia Elétrica - Enfâse Computação',
+    course: 'Engenharia Elétrica - Ênfase Computação',
     birthday: '19/12/1992',
-    information: '............... :) ................'
-
+    about: 'Estudante do 3°ano de Engenharia Elétrica na Escola Politécnica da USP'
   },
   {
     full_name: 'Guilherme Job Rocha Silveira',
@@ -141,17 +140,14 @@ people = [
     first_name: 'Victor'
   },
   {
-    full_name: 'Michelet Del Carpio',
+    full_name: 'Michelet Del Carpio Chavez',
     first_name: 'Michelet',
     course: 'LabSoft Technician',
-    birthday: '99/99/9999',
-    about: '............. : ( .............',
-    picture: '??????'
+    birthday: '23/09/1981',
+    about: '',
+    picture: 'd41d8cd98f00b204e9800998ecf8427e'
   }
 ];
-
-
-/*Adicionar qualquer merda*/
 
 /*
  * This function will be executed once the DOM has finished loading.
