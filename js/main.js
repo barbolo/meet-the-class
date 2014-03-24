@@ -140,12 +140,12 @@ people = [
     first_name: 'Victor'
   },
   {
-   full_name: 'Michelet Del Carpio',
+   full_name: 'Michelet Del Carpio Chavez',
    first_name: 'Michelet',
    course: 'LabSoft Technician',
-   birthday: '??/??/????',
-   about: '????????',
-   picture: '??????'
+   birthday: '23/09/1981',
+   about: '...',
+   picture: 'd41d8cd98f00b204e9800998ecf8427e'
  }
 ];
 
