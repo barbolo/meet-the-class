@@ -95,6 +95,11 @@ people = [
   {
     full_name: 'Marcos Teruaki Hosoya',
     first_name: 'Marcos'
+    course: 'Curso Cooperativo',
+    birthday: '14/02/1993',
+    about: ´'Gosto de dormir',
+    picture: 'd959afb9a2f03b9e17e1ff05373e3d2e'
+
   },
   {
     full_name: 'Martin Andrade Jastrzebski',
