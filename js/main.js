@@ -58,7 +58,10 @@ people = [
   },
   {
     full_name: 'Gabriel Souza Victorino Lopes',
-    first_name: 'Gabriel'
+    first_name: 'Gabriel',
+    course: 'Engenharia Elétrica - Ênfase Computação',
+    birthday: '19/12/1992',
+    about: 'Estudante do 3°ano de Engenharia Elétrica na Escola Politécnica da USP'
   },
   {
     full_name: 'Guilherme Job Rocha Silveira',
@@ -154,6 +157,14 @@ people = [
   {
     full_name: 'Victor Gabriel Maraccini',
     first_name: 'Victor'
+  },
+  {
+    full_name: 'Michelet Del Carpio Chavez',
+    first_name: 'Michelet',
+    course: 'LabSoft Technician',
+    birthday: '23/09/1981',
+    about: '',
+    picture: 'd41d8cd98f00b204e9800998ecf8427e'
   }
 ];
 
