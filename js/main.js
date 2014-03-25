@@ -1,4 +1,4 @@
-/*
+﻿/*
  * This file contains all JavaScript that makes the app work.
  *
  * Most of the drag and drop functionality was adapted from a great tutorial
@@ -150,6 +150,9 @@ people = [
   {
     full_name: 'Saulo de Tarso Ribeiro Costa',
     first_name: 'Saulo'
+    course: 'Curso Cooperativo',
+    birthday: '28/08/1994',
+    about: 'I like playing poker.'
   },
   {
     full_name: 'Victor Gabriel Maraccini',
