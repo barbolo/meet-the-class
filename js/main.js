@@ -78,7 +78,11 @@ people = [
   },
   {
     full_name: 'João Batista Marinho da Silva Filho',
-    first_name: 'João Batista'
+    first_name: 'João Batista',
+    course: 'Curso Cooperativo 2016',
+    birthday: '19/05/1994',
+    about: 'Eu gosto de pão de queijo.',
+    picture: '3a91d09fc2a54fe6ce24197ffda2ad69'
   },
   {
     full_name: 'João Henrique Kersul Faria',
