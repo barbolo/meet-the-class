@@ -116,6 +116,21 @@ header {
   width: 55px;
 }
 
+.placeVazio {
+  background-color: none;
+  border: 3px solid transparent;
+  color: none;
+  display: -webkit-flex;
+  display: inline-flex;
+  float: left;
+  font-size: 15px;
+  height: 55px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 55px;
+}
+
 .places-row {
   margin-top: 12px;
   text-align: center;
