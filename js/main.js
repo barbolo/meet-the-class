@@ -63,7 +63,6 @@ people = [
     birthday: '10/01/1995',
     about: 'I think computers are cool',
     picture: '8c7bf9b8ca4c880cbe7e3c75c84b1bd6'
-
   },
   {
     full_name: 'Isabel Rosalino Gomes',
@@ -128,7 +127,6 @@ people = [
   {
     full_name: 'Rafael Trostli Costella',
     first_name: 'Rafael'
-
   },
   {
     full_name: 'Ricardo Boccoli Gallego',
