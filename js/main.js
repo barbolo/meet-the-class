@@ -33,8 +33,7 @@ people = [
     first_name: 'André',
     course: 'Curso Cooperativo',
     birthday: '09/02/1994',
-    about: 'Ask me.',
-    picture: '44a119e8dda8d6bd366b893bd48b3fa5'
+    about: 'Ask me.'
   },
   {
     full_name: 'Bruno Henrique da Silva',
@@ -82,7 +81,11 @@ people = [
   },
   {
     full_name: 'Lucas Batista Gabriel',
-    first_name: 'Lucas'
+    first_name: 'Lucas',
+	 course: 'Curso Cooperativo',
+    birthday: '15/02/1992',
+    about: 'doubt?? ask google.'
+	
   },
   {
     full_name: 'Luiz Fernando Pessoa Lustosa Cabral',
@@ -294,13 +297,41 @@ function handleDrop(e) {
    * seated.
    */
   if (dragSrcEl != this && !dragSrcEl.classList.contains('seated')) {
+	
+		
 
+	/*
+    * Case: SEATED-PERSON -> UNSEATED-AREA || UNSEATED-PERSON
+    */
+	 if (this.innerHTML && dragSrcEl.classList.contains('person'))	{
+	
+			seated_people = document.querySelectorAll('.seated');
+		   // If the person we're looking for was found, and we can break the loop.
+		   found_person = false;
+		   // Counter variable.
+		   i = 0;
+
+		   while (found_person == false) {
+		     person = seated_people[i];
+		     if (person.innerHTML == this.innerHTML) {
+		       // Remove the person from the current seat.
+		       //this.innerHTML = "";
+		       // Re-enable the person in the unseated area.
+		       person.classList.remove('seated');
+		       // Stop the loop.
+		       found_person = true;
+		     }
+		     i++;
+		   }
+      	this.innerHTML = dragSrcEl.innerHTML;
+			dragSrcEl.classList.add('seated');
+		
+	 }		
     /*
      * Case: SEATED-PERSON -> UNSEATED-AREA || UNSEATED-PERSON
      */
-    if (dragSrcEl.classList.contains('place')
+    else if (dragSrcEl.classList.contains('place')
           && (this.classList.contains('bla') || this.classList.contains('person')))  {
-
       /*
        * Find the person in the unseated are and re-enable that element
        * (which was previously disabled). Also, remove the person from
@@ -332,7 +363,7 @@ function handleDrop(e) {
      */
     else if (this.classList.contains('person') &&
       dragSrcEl.classList.contains('person')) {
-      // Don't do anything.
+      // Don't do anything.	
     }
     /*
      * Case: SEATED-PERSON -> SEATED-PERSON
@@ -343,7 +374,8 @@ function handleDrop(e) {
       this.innerHTML = dragSrcEl.innerHTML;
       dragSrcEl.innerHTML = temp;
     }
-    /*
+
+	 /*
      * Case: UNSEATED-PERSON -> EMPTY-PLACE
      */
     else {
