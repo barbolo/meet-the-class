@@ -98,7 +98,11 @@ people = [
   },
   {
     full_name: 'Martin Andrade Jastrzebski',
-    first_name: 'Martin'
+    first_name: 'Martin',
+	course: 'Curso Cooperativo',
+	birthday: '14/07/1992',
+	about: 'Love cooking, gaming and Music :)',
+	picture: '522dccfa85d6ec7ffa07d16e03626efe',
   },
   {
     full_name: 'Matheus Eis Pagani',
@@ -361,11 +365,13 @@ function handleDrop(e) {
     /*
      * Case: UNSEATED-PERSON -> EMPTY-PLACE
      */
-    else {
-      this.innerHTML = dragSrcEl.innerHTML;
-      dragSrcEl.classList.add('seated');
-    }
+    
+	else if(!this.classList.contains('bla')){
+	this.innerHTML = dragSrcEl.innerHTML;
+    dragSrcEl.classList.add('seated');
+	}
   }
+   
 
   // Updates the empty places count.
   $('.empty-places-count')[0].innerHTML = $('.person:not(.seated)').length;
