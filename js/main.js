@@ -21,7 +21,7 @@
 
 people = [
   {
-    full_name: 'Adriano Dennanni',
+     full_name: 'Adriano Dennanni',
     first_name: 'Adriano'
   },
   {
@@ -115,6 +115,10 @@ people = [
   {
     full_name: 'Nsunda Bondo Lubaki',
     first_name: 'Nsunda'
+    course: 'Curso Cooperativo',
+   birthday: '05/03/1982',
+   about: 'I love listening to music and doing nothing at home.',
+   picture: 'd263b03eaedd010ae3f0f6d515f068a3'
   },
   {
     full_name: 'Pedro Napolitano Sant\'Ana',
